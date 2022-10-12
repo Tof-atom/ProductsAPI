@@ -1,10 +1,10 @@
 package ca.vanier;
 
-public class Product {
-    String name;
-    String title;
-    int id;
-    double price;
+class Product {
+    private String name;
+    private String title;
+    private int id;
+    private double price;
 
     public Product(String name, String title, int id, double price) {
         this.name = name;
@@ -43,6 +43,11 @@ public class Product {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    @Override
+    public String toString() {
+        return "Product [name=" + name + ", title=" + title + ", id=" + id + ", price=" + price + "]";
     }
 
 }
