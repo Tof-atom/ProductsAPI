@@ -29,4 +29,4 @@ _.tar.gz
 hs_err_pid*
 replay_pid*
 
-/taraget/\*
+taraget/
